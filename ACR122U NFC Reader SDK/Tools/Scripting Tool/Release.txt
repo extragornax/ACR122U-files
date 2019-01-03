@@ -1,0 +1,36 @@
+Release Notes for ACR122U PC/SC Scripting Tool
+==============================================
+
+-----------------------------------------
+Version: 1.0.0.0 (RW)	Date: 21-Aug-2008
+-----------------------------------------
+
+Description:
+ACR122U PC/SC Scripting Demo Program to demonstrate sending commands through scripts.
+
+Includes 4 scripts that can be loaded when either a:
+-          Mifare UltraLight;
+-          Mifare 1K;
+-          Mifare 4K;
+-          Topaz
+Card is placed on the reader…
+
+Other cards supported by the reader will be recognized by the reader as well and displayed in the ‘Card’ section.
+
+- Includes non-Unicode version for Windows 98.
+- Following support for scripts.
+  The 'Load'-button will be enabled if any of the below cards is placed on the reader
+  and a suitable script is present in the Scripts-subfolder:
+  Card			Script name
+  -----------		-----------
+  Mifare Ultralight	UltraLight.txt
+  MIFARE 1K		Mifare1K.txt
+  MIFARE 4K		Mifare4K.txt
+  MIFARE MINI		MifareMini.txt
+  MIFARE DESFIRE	MifareDesFire.txt
+  TOPAZ			Topaz.txt
+  ISO/IEC14443-4A	OtherIsoA.txt
+  ISO/IEC14443-4B	OtherIsoB.txt
+  FELICA		Felica.txt
+
+

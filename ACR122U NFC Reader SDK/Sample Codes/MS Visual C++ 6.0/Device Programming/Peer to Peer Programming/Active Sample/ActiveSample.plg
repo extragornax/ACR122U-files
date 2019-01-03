@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ActiveSample - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/ActiveSample.res" /d "_DEBUG" /d "_AFXDLL" "G:\codes\ACR122\MS Visual C++ 6.0\Peer to Peer Programming\Active Sample\ActiveSample.rc"" 
+Creating temporary file "C:\DOCUME~1\jeri\LOCALS~1\Temp\RSP90.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ActiveSample.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\codes\ACR122\MS Visual C++ 6.0\Peer to Peer Programming\Active Sample\ActiveSampleDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\jeri\LOCALS~1\Temp\RSP90.tmp" 
+Creating temporary file "C:\DOCUME~1\jeri\LOCALS~1\Temp\RSP91.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ActiveSample.pdb" /debug /machine:I386 /out:"Debug/ActiveSample.exe" /pdbtype:sept 
+".\Debug\ActiveSample.obj"
+".\Debug\ActiveSampleDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ActiveSample.res"
+".\Winscard.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\jeri\LOCALS~1\Temp\RSP91.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+ActiveSampleDlg.cpp
+G:\codes\ACR122\MS Visual C++ 6.0\Peer to Peer Programming\Active Sample\ActiveSampleDlg.cpp(145) : warning C4018: '<=' : signed/unsigned mismatch
+G:\codes\ACR122\MS Visual C++ 6.0\Peer to Peer Programming\Active Sample\ActiveSampleDlg.cpp(232) : warning C4018: '<=' : signed/unsigned mismatch
+G:\codes\ACR122\MS Visual C++ 6.0\Peer to Peer Programming\Active Sample\ActiveSampleDlg.cpp(258) : warning C4018: '<=' : signed/unsigned mismatch
+G:\codes\ACR122\MS Visual C++ 6.0\Peer to Peer Programming\Active Sample\ActiveSampleDlg.cpp(716) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+ActiveSample.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

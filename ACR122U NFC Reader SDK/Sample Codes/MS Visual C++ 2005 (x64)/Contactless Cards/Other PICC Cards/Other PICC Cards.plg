@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Other PICC Cards - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\jeri\LOCALS~1\Temp\RSP45B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Other PICC Cards.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\codes\ACR122 full pcsc\C++\Other PICC Cards\Other PICC CardsDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\jeri\LOCALS~1\Temp\RSP45B.tmp" 
+Creating temporary file "C:\DOCUME~1\jeri\LOCALS~1\Temp\RSP45C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Other PICC Cards.pdb" /debug /machine:I386 /out:"Debug/Other PICC Cards.exe" /pdbtype:sept 
+".\Debug\Other PICC Cards.obj"
+".\Debug\Other PICC CardsDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Other PICC Cards.res"
+".\Winscard.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\jeri\LOCALS~1\Temp\RSP45C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Other PICC CardsDlg.cpp
+G:\codes\ACR122 full pcsc\C++\Other PICC Cards\Other PICC CardsDlg.cpp(234) : warning C4018: '!=' : signed/unsigned mismatch
+G:\codes\ACR122 full pcsc\C++\Other PICC Cards\Other PICC CardsDlg.cpp(272) : warning C4018: '!=' : signed/unsigned mismatch
+G:\codes\ACR122 full pcsc\C++\Other PICC Cards\Other PICC CardsDlg.cpp(281) : warning C4018: '!=' : signed/unsigned mismatch
+G:\codes\ACR122 full pcsc\C++\Other PICC Cards\Other PICC CardsDlg.cpp(764) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+G:\codes\ACR122 full pcsc\C++\Other PICC Cards\Other PICC CardsDlg.cpp(795) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+G:\codes\ACR122 full pcsc\C++\Other PICC Cards\Other PICC CardsDlg.cpp(808) : warning C4018: '!=' : signed/unsigned mismatch
+G:\codes\ACR122 full pcsc\C++\Other PICC Cards\Other PICC CardsDlg.cpp(913) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+Other PICC Cards.exe - 0 error(s), 7 warning(s)
+</pre>
+</body>
+</html>

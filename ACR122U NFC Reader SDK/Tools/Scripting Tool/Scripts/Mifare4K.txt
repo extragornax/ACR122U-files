@@ -1,0 +1,40 @@
+; ---------------------------------------------------------------
+; Demo script for MIFARE 4K card and ACR122U PC/SC reader
+; (c) 2008, Advanced Card Systems Ltd.
+; ---------------------------------------------------------------
+
+; [1] Load (Mifare Default) key in reader (key location 0)
+FF 82 00 00 06 FF FF FF FF FF FF (9000)
+
+; [2] Authenticate sector 32, Block 14 with key at location 0
+FF 86 00 00 05 01 00 8E 60 00 (9000)
+
+; [3] Read the full 16 bytes from Sector 32, Block 14
+FF B0 00 8E 10 [xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx] (9000)
+
+; [4] Update the 16 bytes in Sector 32, block 14
+FF D6 00 8E 10 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F (9000)
+
+; [5] Read the full 16 bytes from Sector 32, Block 14 again
+FF B0 00 8E 10 [xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx] (9000)
+
+; [6] Authenticate sector 1, Block 5 with key at location 0
+FF 86 00 00 05 01 00 05 60 00 (9000)
+
+; [7] Store a value "1" into block 5
+FF D7 00 05 05 00 00 00 00 01 (9000)
+
+; [8] Read the value block 5
+FF B1 00 05 04 [xx xx xx xx] (9000)
+
+; [9] Copy the value from value block 5 to value block 6 
+FF D7 00 05 02 03 06 (9000)
+
+; [10] Read the value block 6
+FF B1 00 06 04 [xx xx xx xx] (9000)
+
+; [11] Increment the value block 5 by "5"
+FF D7 00 05 05 01 00 00 00 05 (9000)
+
+; [12] Read the value block 5
+FF B1 00 05 04 [xx xx xx xx] (9000)

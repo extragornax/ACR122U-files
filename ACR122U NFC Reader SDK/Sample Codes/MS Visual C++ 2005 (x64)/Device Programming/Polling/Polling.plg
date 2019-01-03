@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Polling - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\jeri\LOCALS~1\Temp\RSP229.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Polling.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\jeri\LOCALS~1\Temp\RSP229.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Polling.pdb" /debug /machine:I386 /out:"Debug/Polling.exe" /pdbtype:sept  ".\Debug\Polling.obj" ".\Debug\PollingDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\Polling.res" ".\Winscard.lib" "
+<h3>Output Window</h3>
+Compiling...
+PollingDlg.cpp
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(102) : warning C4101: 'tempstr' : unreferenced local variable
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(103) : warning C4101: 'buffer' : unreferenced local variable
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(101) : warning C4101: 'temparray' : unreferenced local variable
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(136) : warning C4101: 'index' : unreferenced local variable
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(257) : warning C4101: 'tempstr' : unreferenced local variable
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(969) : warning C4018: '<=' : signed/unsigned mismatch
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(982) : warning C4018: '<=' : signed/unsigned mismatch
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(1140) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(1150) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(1160) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(1170) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(1180) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(1190) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(1200) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(1210) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(1227) : warning C4018: '<=' : signed/unsigned mismatch
+G:\codes\ACR122 full pcsc\C++\Polling\PollingDlg.cpp(1246) : warning C4018: '<=' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+Polling.exe - 0 error(s), 17 warning(s)
+</pre>
+</body>
+</html>

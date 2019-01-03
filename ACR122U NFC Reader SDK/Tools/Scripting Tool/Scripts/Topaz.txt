@@ -1,0 +1,35 @@
+; ----------------------------------------------------------
+; Demo script for TOPAZ card and ACR122U PC/SC reader
+; (c) 2008, Advanced Card Systems Ltd.
+; ----------------------------------------------------------
+
+; [1]  Read memory of block 0x08 (blocksize is 1 byte)
+01 08 [xx] (9000)
+
+; [2]  Read memory of block 0x09 (blocksize is 1 byte)
+01 09 [xx] (9000)
+
+; [3]  Read memory of block 0x0A (blocksize is 1 byte)
+01 0A [xx] (9000)
+
+; [4]  Update memory of block 0x08 with 0x41 
+53 08 41 [xx] (9000)
+
+; [5]  Update memory of block 0x09 with 0x43 
+53 09 43 [xx] (9000)
+
+; [6]  Update memory of block 0x0A with 0x53 
+53 0A 53 [xx] (9000)
+
+; [7]  Read memory of block 0x08 again (blocksize is 1 byte)
+01 08 [xx] (9000)
+
+; [8]  Read memory of block 0x09 again (blocksize is 1 byte)
+01 09 [xx] (9000)
+
+; [9]  Read memory of block 0x0A again (blocksize is 1 byte)
+01 0A [xx] (9000)
+
+; [10] Read the complete memory content of the tag (122 bytes)
+00 [xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx xx] (9000)
+

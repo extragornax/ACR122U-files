@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Device Programming - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1B0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Device Programming.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device Programming.cpp"
+"E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1B0.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1B1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Device Programming.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1B1.tmp" 
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Device Programming.cpp
+Device ProgrammingDlg.cpp
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(117) : warning C4018: '<=' : signed/unsigned mismatch
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(147) : warning C4018: '<=' : signed/unsigned mismatch
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(749) : warning C4018: '<=' : signed/unsigned mismatch
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(779) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(781) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(839) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(842) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(845) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(848) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(851) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(854) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(857) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(860) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(877) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(880) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(883) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(886) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\ACR122 Sample Codes\Sample Codes\MS Visual C++ 6.0\Device Programming\Basic Device Programming\Device ProgrammingDlg.cpp(1119) : warning C4018: '<' : signed/unsigned mismatch
+Generating Code...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1B2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Device Programming.pdb" /debug /machine:I386 /out:"Debug/Device Programming.exe" /pdbtype:sept 
+".\Debug\Device Programming.obj"
+".\Debug\Device ProgrammingDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Device Programming.res"
+".\Winscard.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1B2.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Device Programming.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Device Programming.sbr" ".\Debug\Device ProgrammingDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Device Programming.exe - 0 error(s), 18 warning(s)
+</pre>
+</body>
+</html>
